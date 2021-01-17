@@ -1,0 +1,346 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+body{
+	height: 70%;
+}
+.pod li:hover{
+	color:#A1A1A1;
+	transition: 0.8s;
+	cursor: pointer;
+}
+.div1 {
+	width: 100%;
+	height: 1340px;
+	background: url(images/bgspk.png) no-repeat; 
+}
+.light {
+	position: relative;
+left: 300px;
+}
+
+.headline {
+	width: 35%;
+	position: absolute;
+	top: 50px;
+	left: 430px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.headline p {
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
+color: #622903;
+font-family: "Lobster 1.4";
+font-size: 38px;
+letter-spacing: 1.26px;
+}
+.headline img {
+	width: 31px;
+height: 46px;
+}
+.headline p:hover {
+	font-size: 39px;
+	transition: 1s;
+	cursor: pointer;
+}
+
+
+.pod {
+	width: 200px;
+	position: relative;
+	top: -300px;
+	left: 250px;
+}
+
+
+.pod img {
+	z-index: 1;
+}
+
+
+
+
+.pod2 ul li{
+	word-spacing: 3px;
+
+height: 11px;
+color: #ffffff;
+font-family: "Roboto";
+font-size: 15px;
+font-weight: 400;
+line-height: 27px;
+text-transform: uppercase;
+letter-spacing: 0.38px;
+}
+.pod2 ul {
+
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	z-index: 2;
+}
+.pod2 {
+	width: 650px;
+position: relative;
+top: -65px;
+left: 45px;
+}
+.onas {
+
+}
+
+
+
+
+
+.vd1 {
+	width: 35%;
+	position: relative;
+	top: -280px;
+	left: 410px;
+
+}
+.vd1 h2{
+color: #622903;
+font-family: "Lobster 1.4";
+font-size: 40px;
+text-align: center;
+position: relative;
+top: -20px;
+}
+
+.vd1 p {
+	font-size: 20px;
+	font-family: "Roboto";
+
+color: #030303;
+font-size: 16px;
+}
+
+
+
+.cat1 {
+	position: relative;
+	top: -690px;
+}
+
+.cat2 {
+	position: relative;
+	top: -1090px;
+	left: 900px;
+}
+
+
+
+
+.fd {
+	width: 100%;
+	position: relative;
+	top: -590px;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.cm {
+	width: 25%;
+	height: 400px;
+
+}
+.im1 {
+	position: relative;
+	left: 15%;
+	top: 9vh;
+}
+.cm h2 {
+	font-family: "Lobster 1.4";
+	color:  #622903;
+	text-align: center;
+	font-size: 35px;
+	margin-top: 9vh;
+}
+.im2 {
+	margin-top: 4vh;
+	margin-left: 4vw;
+}
+
+
+.wm {
+	width: 30%;
+margin-left: 8vw;
+}
+.wm h2 {
+	font-family: "Lobster 1.4";
+	color:  #622903;
+	font-size: 35px;
+	text-align: center;
+}
+.wats {
+	z-index: 0;
+}
+.em h2 {
+	font-family: "Lobster 1.4";
+	color:  #622903;
+	font-size: 35px;
+}
+.em {
+	height: 200px;
+	width: 40%;
+	position: relative;
+	top: -53px;
+}
+
+.sd {
+	height: 70px;
+	position: relative;
+	top: 5px;
+	left: 
+}
+.sd2 {
+	height: 109px;
+	position: relative;
+	top: 150px;
+	left: -23px;
+}
+.wm p {
+	width: 270px;
+	font-size: 12px;
+	font-family: "Roboto";
+	margin-top: -13vh;
+	margin-left: 2vw;
+}
+.emm {
+	width: 60%;
+
+margin-left: 5vw;
+}
+.emm h2 {
+	text-align: center;
+}
+.emm p {
+	font-family: "Roboto";
+	font-size: 12px;
+
+}
+
+
+
+
+/*-----------------*/
+.cm h2:hover {
+	font-size: 39px;
+	transition: 1s;
+	cursor: pointer;
+}
+.wm h2:hover {
+	font-size: 39px;
+	transition: 1s;
+	cursor: pointer;
+}
+.em h2:hover {
+	font-size: 39px;
+	transition: 1s;
+	cursor: pointer;
+}
+/*------------------*/
+
+
+
+
+.calendar{
+  width: 320px;
+  height: auto;
+  background:#fdd5b1;
+  box-sizing: border-box;
+
+}
+.calendar .date{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+  grid-gap: 15px;
+  box-sizing: border-box;
+}
+.calendar .date div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  color: #262626;
+}
+.calendar .date .day{
+  font-weight: 700;
+}
+.calendar .date .day:first-child,
+.calendar .date .number:nth-child(7n+1){
+  color: #ff685d;
+  font-weight: 700; 
+}
+.calendar .date .day:nth-child(7n),
+.calendar .date .number:nth-child(7n){
+  color: #ff685d;
+  font-weight: 700; 
+}
+.calendar .date .number.active{
+  background: #d2691e;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+.number{
+  /border:1px solid orange;/
+  margin: 0;
+}
+p{
+  font-style: italic;
+  font-size: 30px;
+}
+.text p{
+  background: #d2691e;
+  height: 100px;
+  position: relative;
+  
+}
+
+
+
+
+
+.blackcat {
+position: relative;
+top: -617px;
+left: 900px;
+}
+footer {
+	background: #000;
+	width: 100%;
+	height: 40vh;
+	margin-top: -110vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+
+
+footer p {
+	color: #d49053;
+font-family: "Roboto";
+font-size: 14px;
+
+}
+.c {
+	width: 70%;
+	height: 150px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: -10vh;
+}
